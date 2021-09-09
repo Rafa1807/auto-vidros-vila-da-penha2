@@ -211,7 +211,7 @@ a:visited {
     overflow: hidden;
     display:block;
     margin: auto;
-    color: rgb(255, 255, 255);
+    color: rgb(6, 6, 6);
     font-size: 30px;
     text-align: center;
     
@@ -219,12 +219,15 @@ a:visited {
 
 .textaboutus > p{
     margin-top: 100px;
-    text-shadow: black 4px 3px;
+    text-shadow: rgb(196, 196, 196) 1px 1px;
     width: 70%;
     line-height: 70px;
     text-align: justify;
     text-align: center;
     display: inline-block;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    
 }
 .label4 {
     display: block;
@@ -422,14 +425,14 @@ li {
 
 .delivery {
     width: 100%;
-    height: 240px;
+    height: 211px;
     display: block;
     margin: auto;
     
 }
 .delivery > img {
     width: 100%;
-    height: 240px;
+    height: 211px;
     display: block;
 }
 .nossosservicos {
@@ -541,7 +544,7 @@ li {
     border: solid 1px rgb(208, 208, 208);
     border-radius: 10px;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin-left: 20px;
@@ -558,7 +561,7 @@ li {
     border: solid 1px rgb(208, 208, 208);
     border-radius: 10px;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     
@@ -581,16 +584,16 @@ li {
     display: inline-block;
     margin: auto;
     padding: 2px;
-    width: 120px;
+    width: 80px;
     margin-top: 5px;
     background-color: rgba(1, 119, 140, 0.934);
     color: rgb(255, 255, 255);
-    font-size: 15px;
+    font-size: 14px;
     font-style: italic;
     border-radius: 10px;
     font-weight: bolder;
     box-sizing: border-box;
-    margin-left: 143px;
+    margin-left: 164px;
     margin-bottom: 10px;
 }
 .submit:hover {
