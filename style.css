@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.whatsapp {
+    width: 45px;
+    min-width: 20px;
+    position: sticky;
+    top: 650px;
+    right: 80px;
+    float: right;
+}
+.label0 {
+    width: 100%;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    font-size: 14px;
+}
+.atendimento {
+    background-color: rgba(57, 56, 56, 0.714);
+    display: inline-block;
+    width: 28%;
+    padding: 10px;
+}
+.textatendimento {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.ptext {
+    margin-left: 123px;
+} 
+header {
+    background-color: rgb(249, 249, 249);
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 2px;
+}
+.containermenu {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    overflow: hidden;
+}
+.logo {
+    width: 170px;
+    min-width: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    
+    
+}
+.menu {
+    list-style: none;
+    font-size: 18px;
+    float: right;
+    margin-right: 2px;
+    margin-top: 40px;
+    padding-right: 20px;
+    
+}
+li {
+    float: right;
+    margin-right: 20px;
+    background-color: rgba(1, 119, 140, 0.934);
+    padding: 5px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255); 
+}
+li:hover {
+    background-color: rgba(2, 77, 91, 0.934);
+}
+a {
+   text-decoration: none;
+   
+}
+a:visited { 
+    color: white;
+}
+.facebook > img {
+    width: 40px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+.instagram {
+    width: 38px;
+    float: right;
+    margin-right: 40px;
+    margin-top: -25px;
+}
+.label1 {
+    background-color: #000000;
+    width: 100%;
+    
+    display: block;
+    margin: auto;
+    
+}
+.delivery {
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: auto;
+    
+}
+.delivery > img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.label2 {
+    background-color: rgb(46, 46, 46);
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 6px 0;
+    text-shadow: black 1px 2px;
+    font-style: italic;
+    font-weight: bolder;
+}   
+.containerservices {
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.textcontainer, .acessories, .repairparabrisa, .insulfilm, .elevator {
+    text-align: center;
+    color: rgb(196, 196, 196);
+    margin-top: 50px;
+    
+}
+.photoparabrisa, .photoacessories, .photorepairparabrisa, .photoinsulfilm, .photoelevador {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 20%;
+    
+}
+.titleparabrisa, .titleacessories, .titlerepairparabrisa, .titleinsulfilm, .titleelevador {
+    font-size: 30px;
+    display: inline-block;
+    width: 280px;
+}
+.textparabrisa, .textacessories, .textrepairparabrisa, .textinsulfilm, .textelevador {
+    width: 400px;
+    margin-top: 26px;
+    text-indent: 1;
+    display: inline-block;
+    font-size: 20px;
+    text-align:center;
+    margin-bottom: 60px;  
+}
+
+.textinsulfilm, .textacessories {
+    margin-right:20px ;
+    margin-left:20px ;
+}
+.label5 {
+    width: 100%;
+    padding: 0px 0 30px 0;
+    background-color: rgb(71, 70, 70);
+    text-align: center;
+    margin-top: 40px;
+}
+.eficiencia, .pontualidade, .preço {
+    width: 25%;
+    font-size: 40px;
+    display: inline-block;
+    margin-top: -25px;
+    background-color: rgba(1, 119, 140, 0.564);
+    font-style: italic;
+    margin-right: 6%;
+}
+.eficiencia:hover, .pontualidade:hover, .preço:hover {
+    background-color: rgb(1, 119, 140, 0.564);
+}
+.label6 {
+    background-color: white;
+    height: 30px;
+    width: 100%;
+}
+.label3 {
+    background-color: rgb(46, 46, 46);
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 3px 0;
+}
+.titleaboutus {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.textaboutus {
+    background-image: url(./Fotos/fundo-quem-somos.jpg); background-repeat:no-repeat;
+    background-size:100%;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    display:block;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.textaboutus > p{
+    margin-top: 100px;
+    text-shadow: black 4px 3px;
+    width: 70%;
+    line-height: 70px;
+    text-align: justify;
+    text-align: center;
+    display: inline-block;
+}
+.label4 {
+    display: block;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px 0;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+.contact {
+    padding: 0px 0 0 0;
+    display: block;
+    background-color: rgb(211, 211, 211);
+    background-image: url(./Fotos/fotocontato.jpeg);
+    background-size: cover;
+    width: 100%;
+    
+}
+.imgcontact {
+   margin-top: 100px; 
+   float: left;
+   margin-left: 90px;
+   margin-right: 0;
+   width: 320px;
+  
+   
+    
+}
+.inputname {
+    display: inline-block;
+    width: 300px;
+    min-width: 100px;
+    height: 30px;
+    margin-bottom: 15px;
+    border: solid 1px rgb(208, 208, 208);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin-left: 110px;
+    margin-top: 150px;
+    
+}
+.inputemail {
+    display: inline-block;
+    width: 300px;
+    min-width: 100px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    border: solid 1px rgb(208, 208, 208);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+.inputdescription {
+    display: block;
+    margin: auto;
+    border: solid 1px rgb(145, 145, 145);
+    border-radius: 10px;
+    width: 650px;
+    height: 130px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin-left: 509px;
+   
+    
+}
+.submit {
+    display: inline-block;
+    margin: auto;
+    padding: 12px;
+    width: 650px;
+    margin-top: 5px;
+    background-color: rgba(56, 210, 237, 0.934);
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-style: italic;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+.submit:hover {
+    background-color: rgba(80, 171, 187, 0.934);
+    cursor: pointer;
+}
+footer {
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    padding: 5px 0;
+    color: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 90px;
+        min-width: 40px;
+        margin-left: 20px;
+        margin-top: 5px;
+        float: left;
+    }
+    .menu {
+        font-size: 12px;
+        float: right;
+        margin-right: 2px;
+        margin-top: 40px;
+        padding-right: 20px;
+}
+.whatsapp {
+    width: 30px;
+    position: sticky;
+    top: 515px;
+    left: 211px;
+    display: inline-block;
+}    
+
+.atendimento {
+    background-color: rgba(57, 56, 56, 0.714);
+    display: inline-block;
+    width: 50%;
+    padding: 2px;
+    text-align: center;
+}
+.textatendimento {
+    font-weight: bolder;
+    font-size: 12px;
+    text-align:start;
+}
+.ptext {
+    margin-left: 10px;
+    font-size: 11px;
+} 
+.dias {
+    font-size: 11px;
+}
+header {
+    background-color: rgb(249, 249, 249);
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 2px;
+    
+}
+
+.containermenu {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    overflow: hidden;
+}
+.menu {
+    font-size: 10px;
+    float: right;
+    margin-right: -23px;
+    margin-top: 14px;
+    padding-right: 28px;
+}
+li {
+    float: right;
+    margin-right: 7px;
+    background-color: rgba(1, 119, 140, 0.934);
+    padding: 5px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255); 
+}
+
+.facebook > img {
+    width: 25px;
+    float: right;
+    margin-right: 8px;
+    margin-top: -45px;
+}
+.instagram {
+    width: 23px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -22px;
+}
+
+.delivery {
+    width: 100%;
+    height: 240px;
+    display: block;
+    margin: auto;
+    
+}
+.delivery > img {
+    width: 100%;
+    height: 240px;
+    display: block;
+}
+.nossosservicos {
+    font-size: 15px;
+}
+.textcontainer, .acessories, .repairparabrisa, .insulfilm, .elevator {
+    text-align: center;
+    color: rgb(196, 196, 196);
+    margin-top: 18px;
+    
+}
+.photoparabrisa, .photoacessories, .photorepairparabrisa, .photoinsulfilm, .photoelevador {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 20%;
+    
+}
+.titleparabrisa, .titleacessories, .titlerepairparabrisa, .titleinsulfilm, .titleelevador {
+    font-size: 20px;
+    display: inline-block;
+    width: 280px;
+}
+.textparabrisa, .textacessories, .textrepairparabrisa, .textinsulfilm, .textelevador {
+    width: 200px;
+    margin-top: 6px;
+    text-indent: 1;
+    display: inline-block;
+    font-size: 15px;
+    text-align:center;
+    margin-bottom: 0;  
+}
+
+.textinsulfilm, .textacessories {
+    margin-right:20px ;
+    margin-left:20px ;
+}    
+.label5 {
+    width: 100%;
+    padding: 0px 0 20px 0;
+    margin-top: 50px;
+    background-color: rgb(71, 70, 70);
+   
+}
+.eficiencia, .pontualidade, .preço {
+    width: 25%;
+    font-size: 13px;
+    display: inline-block;
+    margin-top: -15px;
+    background-color: rgba(1, 119, 140, 0.564);
+    font-style: italic;
+    margin-right: 4%;
+}
+.titleaboutus {
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.textaboutus {
+    background-image: url(./Fotos/fundo-quem-somos.jpg); background-repeat:no-repeat;
+    background-size:100%;
+    background-position: center;
+    width: 100%;
+    height: 340px;
+    display:block;
+    margin-top: -80px;
+    margin-bottom: -64px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+}
+
+.textaboutus > p{
+    margin-top: 70px;
+    width: 70%;
+    line-height: 20px;
+    text-align: center;
+}
+.label4 {
+    font-size: 18px;
+}
+.contact {
+    padding: 0px 0 0 0;
+    display: block;
+    background-color: rgb(211, 211, 211);
+    background-image: url(./Fotos/fotocontato.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    
+}
+.imgcontact {
+    margin-top: 50px; 
+    float: left;
+    margin-left: 30px;
+    margin-right: 0;
+    width: 40px;
+  
+   
+    
+}
+.inputname {
+    display: inline-block;
+    width: 215px;
+    height: 20px;
+    margin-bottom: 15px;
+    border: solid 1px rgb(208, 208, 208);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 55px;
+    
+}
+.inputemail {
+    display: inline-block;
+    width: 215px;
+    min-width: 100px;
+    height: 20px;
+    margin-bottom: 15px;
+    margin-left: 91px;
+    border: solid 1px rgb(208, 208, 208);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+.inputdescription {
+    display: block;
+    margin: auto;
+    border: solid 1px rgb(145, 145, 145);
+    border-radius: 10px;
+    width: 215px;
+    height: 90px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin-left: 92px;
+   
+    
+}
+.submit {
+    display: inline-block;
+    margin: auto;
+    padding: 2px;
+    width: 120px;
+    margin-top: 5px;
+    background-color: rgba(1, 119, 140, 0.934);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-style: italic;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    margin-left: 143px;
+    margin-bottom: 10px;
+}
+.submit:hover {
+    background-color: rgba(80, 171, 187, 0.934);
+    cursor: pointer;
+}
+footer {
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    padding: 5px 0;
+    color: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 10px;
+}
+}
