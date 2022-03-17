@@ -1,0 +1,22 @@
+{
+  "name": "auto-vidros-vila-da-penha2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RianTavares/auto-vidros-vila-da-penha2.git"
+  },
+  "author": "Rafael Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RianTavares/auto-vidros-vila-da-penha2/issues"
+  },
+  "homepage": "https://github.com/RianTavares/auto-vidros-vila-da-penha2#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
